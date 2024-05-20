@@ -12,36 +12,6 @@
 
 #include "printf.h"
 
-// typedef struct s_print
-// {
-// 	va_list	args;
-// 	int		width;
-// 	int		prc;
-// 	int		zero;
-// 	int		pnt;
-// 	int		dash;
-// 	int		tl;
-// 	int		sign;
-// 	int		is_zero;
-// 	int		perc;
-// 	int		sp;
-// }			t_print;
-
-// t_print	*ft_initialize_tab(t_print *tab)
-// {
-// 	tab->width = 0;
-// 	tab->prc = 0;
-// 	tab->zero = 0;
-// 	tab->pnt = 0;
-// 	tab->sign = 0;
-// 	tab->tl = 0;
-// 	tab->zero = 0;
-// 	tab->dash = 0;
-// 	tab->perc = 0;
-// 	tab->sp = 0;
-// 	return (tab);
-// }
-
 static void	ft_printf_checker(char specifier, va_list *args, int *len, int *i)
 {
 	if (specifier == 's')
